@@ -12,7 +12,7 @@ function handleDirectionChange(direction) {
         character.src = 'assets/green-character/west.gif'
     }
     
-    if(direction === 'north') {
+    if(direction === 'north') { 
         character.src = 'assets/green-character/north.gif'
     }
     
@@ -30,13 +30,14 @@ move(character).withArrowKeys(100, 250, handleDirectionChange)
 
 move(newImage('assets/tree.png')).to(200, 450)
 move(newImage('assets/pillar.png')).to(350, 250)
-move(newImage('assets/pine-tree.png')).withArrowKeys(450, 350)
+move(newImage('assets/pine-tree.png')).to(450, 350)
 move(newImage('assets/crate.png')).to(150, 350)
 move(newImage('assets/well.png')).to(500, 575)
 move(newItem('assets/sword.png')).to(500, 555)
 move(newItem('assets/shield.png')).to(165, 335)
 move(newItem('assets/staff.png')).to(600, 250)
 
+// reference starting points for the assignment and moved to move.js
 // let direction = null;
 // let x = 100;
 // let y = 250;
