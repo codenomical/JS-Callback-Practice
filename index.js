@@ -93,7 +93,7 @@ move(newItem('assets/staff.png')).to(600, 250)
 //     direction = null;
 // })
 
-// moved up
+// moved up for a clearer context
 // move(character).withArrowKeys(100, 250)
 
 // move(newImage('assets/tree.png')).to(200, 450)
