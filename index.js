@@ -36,6 +36,7 @@ function handleDirectionChange(direction)
 
 move(character).withArrowKeys(100, 250, handleDirectionChange);
 
+// The rest of the images that uses the images that work with the function inventory and appear in the background.
 move(newImage('assets/tree.png')).to(200, 450)
 move(newImage('assets/pillar.png')).to(350, 250)
 move(newImage('assets/pine-tree.png')).to(450, 350)
