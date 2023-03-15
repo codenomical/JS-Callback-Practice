@@ -1,8 +1,10 @@
+// So I understand that we have all our sourcing done on this index.js. The image files we have our accessed from move which uses the inventory and character variables.
 const inventory = newInventory()
 move(inventory).to(0, 0)
 
 const character = newImage('assets/green-character/static.gif');
 
+// Here we're accessing the gifs to allow the animation that is set for each direction you're moving.
 function handleDirectionChange(direction) 
 {
     if(direction === null) 
@@ -43,7 +45,7 @@ move(newItem('assets/sword.png')).to(500, 555)
 move(newItem('assets/shield.png')).to(165, 335)
 move(newItem('assets/staff.png')).to(600, 250)
 
-// reference starting points for the assignment and moved to move.js
+// reference starting points for the assignment and moved to move.js. This allows the characgter to move with the keys but the instructions state that it needs to reload since it will only run once under null.
 // let direction = null;
 // let x = 100;
 // let y = 250;
